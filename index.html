@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--boostrap css-->
     <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!--boostrap js-->
+    <link rel="stylesheet" href="js/bootstrap.js">
 
     <!--index.css-->
     <link rel="stylesheet" href="css files/index.css">
@@ -15,64 +19,95 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
+    <!--fontawesome icons-->
+    <script src="https://kit.fontawesome.com/33dbfd6165.js" crossorigin="anonymous"></script>
+
     <title>Amila Adhikari</title>
 </head>
-<body>
-    <div id="home">
 
-        <!--nav bar-->
-       <div class="navigateBar">
-            <nav class="navbar navbar-expand-sm navbar-light bg-white fixed-top">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src="./images/brand/brand.png" alt="">
-                    </a>
+<body class="container">
 
-                    <div class="  justify-content-end collapse navbar-collapse  " id="navlinks">
 
-                        <ul class="navbar-nav ml-auto">
-                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Home</a>
-                            </li>
+    <!--nav bar-->
+    <div class="navigateBar">
+        <nav class="navbar navbar-expand-sm navbar-light bg-white fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/brand/brand.png" alt="">
+                </a>
 
-                             <li class="nav-item">
-                                <a class="nav-link" href="#">Works</a>
-                            </li>
+                <div class="  justify-content-end collapse navbar-collapse  " id="navlinks">
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"> Contact</a>
-                            </li>
-                        </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
 
-                    </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Works</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Contact</a>
+                        </li>
+                    </ul>
 
                 </div>
-            </nav>
-       </div>
+
+            </div>
+        </nav>
     </div>
 
 
-        <div class="mainPart row">
+    <div class="mainPart row">
 
-            <div class="myDetails col-6" style="text-align: center;" id="textPart">
-                <h1>Hi... I'm Amila</h1>
-                <h4>I'm a Web application developer. I love to work with inspiring & creative agencies and 
-                    people. 
-                    <br> <br>
-                    I'm also a free software lover & defender.
-                
+        <div class="myDetails col-8">
+
+            <div class="textPart" style="text-align: center;" id="textPart">
+                <h4>Hi... I'm Amila</h4>
+                <h1 style="color: green;">Web developer& Reasearcher & Free lancer </h1>
+            
+                I'm also a free software lover & defender. I’m a master coach, best-selling author and a passionate
+                speaker. I’m the founder of the first women-only hedge fund, special counsellor in many corporations
+                across the globe. I’ve found balance between work and life, now I’m a totally happy person,
+                loving mother, inspiring speaker and writer
+
                 </h4>
-
             </div>
 
-            <div class="myDetails col-6">
-                <img src="#" alt="myimage">
+            <div class="socialMedia" id="sm">
+                <div class="socialM" id="linked">
+                    <a href="www.google.com"><img src="../images/socialMedia/linkedin.png" alt=""></a>
+                </div>
 
+                <div class="socialM" id="fb">
+                    <a href="www.google.com"><img src="images/socialMedia/fb.jpg" alt=""></a>
+                </div>
+
+                <div id="twitt" class="socialM">
+                    <a href="www.google.com"><img src="images/socialMedia/twitter.png" alt=""></a>
+                </div>
             </div>
 
+            <div class="quickLinks">
+                <div class="ql">
+                    <button type="button" class="btn btn-primary btn-lg" id="btn">Contact</button>
+                </div>
 
+                <div class="ql">
+                    <button type="button" class="btn btn-primary btn-lg" id="btn">Resume</button>
+                </div>
+            </div>
         </div>
 
+        <!--MY photo-->
+        <div class="myDetails col-4">
+            <img src="../images/myDetails/my.png" alt="myimage">
+        </div>
+    </div>
+
+    <h1>sdfgysrf</h1>
+
 
 
 
@@ -82,6 +117,7 @@
 
 
 
-    
+<script src="js files/index.js"></script>
 </body>
+
 </html>

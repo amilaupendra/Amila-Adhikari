@@ -6,7 +6,6 @@ body{
 
 /*navigate bar div*/
 .navigateBar{
-    width: auto;
     height: 100px;
     padding: 12px;
 
@@ -20,16 +19,80 @@ body{
     margin-right: 30px;
 }
 
+#navlinks a:hover{
+    color: hotpink;
+}
+
 
 /*two divs of main body*/
 .myDetails{   
     display: inline-block;
-    height: 800px;
-
+    height: 500px;
 }
 
 #textPart{
-    padding-top: 50px;
-    
+    padding-top: 20px;
+    height: auto;  
+    margin: 10px;
+}
 
+/*social media icons*/
+
+.socialMedia{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 20px
+}
+
+.socialM{
+    width: 50px;
+    height:50px;
+    margin-right: 30px;
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+}
+
+.socialM:hover{
+    transform: scale(1.5);
+}
+
+.socialM img{
+    width: 50px;
+    height: 50px;
+
+}
+
+.socialM#fb{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+/*Quick links,resume*/
+
+.ql button{
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+}
+
+.ql{
+    display: inline-block;
+
+}
+
+#btn{
+    text-align: center;
+    height: 50px;
+}
+
+.quickLinks{
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
 }
