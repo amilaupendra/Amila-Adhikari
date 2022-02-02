@@ -2,6 +2,8 @@ body{
     font-family: 'Roboto', sans-serif;
     color: black;
     padding: 12px;
+    background-color: #0C2D48;
+    
 }
 
 /*navigate bar div*/
@@ -28,6 +30,8 @@ body{
 .myDetails{   
     display: inline-block;
     height: 500px;
+    background-color:#0C2D48 ;
+    
 }
 
 #textPart{
@@ -35,6 +39,7 @@ body{
     height: auto;  
     margin: 10px;
 }
+
 
 /*social media icons*/
 
@@ -54,6 +59,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding: auto;
+    border-radius: 2px;
 }
 
 .socialM:hover{
@@ -63,14 +69,28 @@ body{
 .socialM img{
     width: 50px;
     height: 50px;
+    padding: 5px;
 
 }
 
-.socialM#fb{
+.socialM #linked{
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 5px;
+
+}
+
+.socialM #fb{
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 5px;
+
+}
+
+.socialM #twitt{
     margin-left: 35px;
     margin-right: 35px;
 }
-
 /*Quick links,resume*/
 
 .ql button{
@@ -96,3 +116,59 @@ body{
     margin-right: auto;
     padding: 15px;
 }
+
+/*Service Provide for my clients*/
+
+.secondPart #h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.wrapper{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: 5px;
+}
+
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+
+.wrapper .serviceCard{
+    min-width: 280px;
+    height: 280px;
+    text-align: left;
+    background-color: #0C2D48;
+    display: inline-block;
+
+    font-size: 25px;
+    border-radius: 5%;
+    
+}
+
+.serviceCard h3:hover{
+
+}
+
+.wrapper .serviceCard:hover{
+    color:black;
+    background-color: white;
+    
+}
+
+.iconDiv{
+    color: white;
+    background-color:#0C2D48 ;
+}
+
+.serviceCard .icon:hover{
+    color: #FEDE00;
+}
+
